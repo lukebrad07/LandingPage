@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+#headerContainer {
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    width: 100%;
+}
+
+#headerLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#headerLogoLinkContainer {
+    display: flex;
+    gap: 20px;
+}
+
+span, p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#headerContainerTwo {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FAF8;
+}
+
+#firstBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    margin: 50px;
+}
+
+#firstBodyHeader {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    align-self: center;
+}
+
+#firstBodyImages {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+
+#secondBodyContainer {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+q {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+b{
+    align-self: flex-end;
+}
+
+#thirdBodyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#signUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 50px 250px;
+    margin: 50px;
+}
+
+#signUpContainerButton {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 100px;
+    width: 100%;
+}
+
